@@ -1,10 +1,24 @@
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJwYXJ0aWFscy90ZW1wbGF0ZS5jc3MiLCJzb3VyY2VzQ29udGVudCI6W119 */
+
 /*
 Theme Name: Luke Siegel
 Description: Child theme of twentyseventeen
 Template: twentyseventeen
 
 DO NOT EDIT IN STYLE.CSS
-*/
-h1 a{
 
+*/
+@import url("https://fonts.googleapis.com/css?family=EB+Garamond:500|Josefin+Sans");
+header {
+  font-family: 'Josefin Sans', sans-serif;
 }
+
+#page {
+  font-family: 'EB Garamond', serif;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlcy5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkNBQUM7Ozs7Ozs7O0NBUUE7Q0FDQTtHQUNFOzs7Q0FHRjtHQUNFIiwiZmlsZSI6InN0eWxlcy5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxyXG5UaGVtZSBOYW1lOiBMdWtlIFNpZWdlbFxyXG5EZXNjcmlwdGlvbjogQ2hpbGQgdGhlbWUgb2YgdHdlbnR5c2V2ZW50ZWVuXHJcblRlbXBsYXRlOiB0d2VudHlzZXZlbnRlZW5cclxuXHJcbkRPIE5PVCBFRElUIElOIFNUWUxFLkNTU1xyXG5cclxuKi9cclxuQGltcG9ydCB1cmwoXCJodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2Nzcz9mYW1pbHk9RUIrR2FyYW1vbmQ6NTAwfEpvc2VmaW4rU2Fuc1wiKTtcclxuaGVhZGVyIHtcclxuICBmb250LWZhbWlseTogJ0pvc2VmaW4gU2FucycsIHNhbnMtc2VyaWY7XHJcbn1cclxuXHJcbiNwYWdlIHtcclxuICBmb250LWZhbWlseTogJ0VCIEdhcmFtb25kJywgc2VyaWY7XHJcbn1cclxuIl19 */
+
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJwYXJ0aWFscy9yZXNldC5jc3MiLCJzb3VyY2VzQ29udGVudCI6W119 */

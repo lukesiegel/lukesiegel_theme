@@ -25,6 +25,7 @@ gulp.task('styles', function() {
     .pipe(sourcemaps.init())
     .pipe(identityMap()) // .js and .css files will get a generated sourcemap
   .pipe(sourcemaps.write())
+      .pipe(concat('style.css'))
     .pipe(gulp.dest('./'))
     .pipe(rename({ suffix: '.min' }))
     .pipe(cssnano())

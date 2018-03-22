@@ -6,4 +6,17 @@ Template: twentyseventeen
 DO NOT EDIT IN STYLE.CSS
 
 */
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond:500|Josefin+Sans');
 
+header{
+	
+
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+#page{
+font-family: 'EB Garamond', serif;
+}
+
+
+@import "partials/template";
