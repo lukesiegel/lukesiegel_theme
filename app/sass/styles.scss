@@ -5,17 +5,49 @@ Template: twentyseventeen
 
 DO NOT EDIT IN STYLE.CSS
 
+Colors:
+#c96bff
+	R: 201
+	G: 107
+	B: 255
+#000069
+	R: 0
+	G: 0
+	B: 105
 */
+
+
+/*@import '../../node_modules/node-bourbon';
+*/
+
+
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond:500|Josefin+Sans');
 
-header{
-	
 
-	font-family: 'Josefin Sans', sans-serif;
+#masthead {
+    font-family: 'Josefin Sans', sans-serif;
+
+    .navigation-top {
+        background-color: #c96bff;
+        	.main-navigation ul{
+        		background: #c96bff;
+        	}
+        	@media screen and (min-width: 48em){
+        		font-size:0.91rem;
+        	}
+        	.main-navigation a:hover{
+        		color:rgba(255,240,111,0.75);
+        	}
+    }
 }
 
-#page{
-font-family: 'EB Garamond', serif;
+footer {
+
+    background-color: rgb(255,240,111);
+}
+
+#page {
+    font-family: 'EB Garamond', serif;
 }
 
 

@@ -21,7 +21,11 @@ var gulp = require('gulp'),
 gulp.task('styles', function() {
   return sass('app/sass/**/*.scss', { style: 'expanded' })
 
-    .pipe(autoprefixer('last 2 version'))
+    .pipe(autoprefixer({
+            browsers: ['last 2 versions'],
+          
+            cascade: false
+        }))
     .pipe(sourcemaps.init())
     .pipe(identityMap()) // .js and .css files will get a generated sourcemap
   .pipe(sourcemaps.write())
